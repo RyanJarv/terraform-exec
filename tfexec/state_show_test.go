@@ -42,7 +42,7 @@ func TestStateShowCmd(t *testing.T) {
 
 		assertCmd(t, []string{
 			"state",
-			"rm",
+			"show",
 			"-state=teststate",
 			"testAddress",
 		}, nil, stateShowCmd)
